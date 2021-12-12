@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_rx_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_rx_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1234000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/uart_rx_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/i" type="array">
+      <obj_property name="ElementShortName">i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/CLOCK_NS" type="array">
+      <obj_property name="ElementShortName">CLOCK_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/CLOCK_HALF_PERIOD" type="array">
+      <obj_property name="ElementShortName">CLOCK_HALF_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_HALF_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/MINIMUM_PERIOD" type="array">
+      <obj_property name="ElementShortName">MINIMUM_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MINIMUM_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/DATA_BIT" type="array">
+      <obj_property name="ElementShortName">DATA_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/frame" type="array">
+      <obj_property name="ElementShortName">frame[8:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/UART_CLOCK_NS" type="array">
+      <obj_property name="ElementShortName">UART_CLOCK_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_CLOCK_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/UART_CLOCK_HALF_PERIOD" type="array">
+      <obj_property name="ElementShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider259">
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/frame" type="array">
+      <obj_property name="ElementShortName">frame[8:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/counter" type="array">
+      <obj_property name="ElementShortName">counter[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/rx_state" type="logic">
+      <obj_property name="ElementShortName">rx_state</obj_property>
+      <obj_property name="ObjectShortName">rx_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/i" type="logic">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/DATA_BIT" type="array">
+      <obj_property name="ElementShortName">DATA_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_rx_tb/uart_rx/COUNT_VALUE" type="array">
+      <obj_property name="ElementShortName">COUNT_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT_VALUE[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="console_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="console_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5940000001fs"></ZoomEndTime>
+      <Cursor1Time time="691425000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="311"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="118" />
+   <wvobject type="divider" fp_name="divider173">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/uart_speed" type="array">
+      <obj_property name="ElementShortName">uart_speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_speed[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/spi_speed" type="array">
+      <obj_property name="ElementShortName">spi_speed[27:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_speed[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/i2c_speed" type="array">
+      <obj_property name="ElementShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/send" type="logic">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/expected" type="logic">
+      <obj_property name="ElementShortName">expected</obj_property>
+      <obj_property name="ObjectShortName">expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="group121" type="group">
+      <obj_property name="label">console</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/console_tb/CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">CLOCK_NS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CLOCK_NS[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/MINIMUM_PERIOD" type="array">
+         <obj_property name="ElementShortName">MINIMUM_PERIOD[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MINIMUM_PERIOD[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/BAUD_RATE" type="array">
+         <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/DATA_BIT" type="array">
+         <obj_property name="ElementShortName">DATA_BIT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_BIT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/UART_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">UART_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">UART_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/UART_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/frame" type="array">
+         <obj_property name="ElementShortName">frame[8:0]</obj_property>
+         <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/SPI_SPEED" type="array">
+         <obj_property name="ElementShortName">SPI_SPEED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_SPEED[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/SPI_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">SPI_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/SPI_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/CPOL" type="logic">
+         <obj_property name="ElementShortName">CPOL</obj_property>
+         <obj_property name="ObjectShortName">CPOL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/CPHA" type="logic">
+         <obj_property name="ElementShortName">CPHA</obj_property>
+         <obj_property name="ObjectShortName">CPHA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/MODE" type="array">
+         <obj_property name="ElementShortName">MODE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MODE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/I2C_SPEED" type="array">
+         <obj_property name="ElementShortName">I2C_SPEED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_SPEED[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/I2C_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">I2C_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/I2C_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">I2C_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/ADDR2SEND" type="array">
+         <obj_property name="ElementShortName">ADDR2SEND[6:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR2SEND[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/NUM_OF_FRAMES" type="array">
+         <obj_property name="ElementShortName">NUM_OF_FRAMES[1:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_OF_FRAMES[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/REPEAT" type="array">
+         <obj_property name="ElementShortName">REPEAT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">REPEAT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/R_OR_W" type="logic">
+         <obj_property name="ElementShortName">R_OR_W</obj_property>
+         <obj_property name="ObjectShortName">R_OR_W</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/UART" type="array">
+         <obj_property name="ElementShortName">UART[1:0]</obj_property>
+         <obj_property name="ObjectShortName">UART[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/SPI" type="array">
+         <obj_property name="ElementShortName">SPI[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/I2C" type="array">
+         <obj_property name="ElementShortName">I2C[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/STANDBY" type="array">
+         <obj_property name="ElementShortName">STANDBY[1:0]</obj_property>
+         <obj_property name="ObjectShortName">STANDBY[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/OK_RESPONSE" type="array">
+         <obj_property name="ElementShortName">OK_RESPONSE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OK_RESPONSE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/ERROR_RESPONSE" type="array">
+         <obj_property name="ElementShortName">ERROR_RESPONSE[55:0]</obj_property>
+         <obj_property name="ObjectShortName">ERROR_RESPONSE[55:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/uart_speed" type="array">
+      <obj_property name="ElementShortName">uart_speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_speed[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/spi_speed" type="array">
+      <obj_property name="ElementShortName">spi_speed[27:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_speed[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/i2c_speed" type="array">
+      <obj_property name="ElementShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy" type="logic">
+      <obj_property name="ElementShortName">rx_busy</obj_property>
+      <obj_property name="ObjectShortName">rx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy_r" type="array">
+      <obj_property name="ElementShortName">rx_busy_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy_fedge" type="logic">
+      <obj_property name="ElementShortName">rx_busy_fedge</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_fedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/send" type="logic">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/response" type="array">
+      <obj_property name="ElementShortName">response[63:0]</obj_property>
+      <obj_property name="ObjectShortName">response[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/received_byte" type="array">
+      <obj_property name="ElementShortName">received_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">received_byte[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/command" type="array">
+      <obj_property name="ElementShortName">command[160:1]</obj_property>
+      <obj_property name="ObjectShortName">command[160:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/UART" type="array">
+      <obj_property name="ElementShortName">UART[1:0]</obj_property>
+      <obj_property name="ObjectShortName">UART[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/SPI" type="array">
+      <obj_property name="ElementShortName">SPI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SPI[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/I2C" type="array">
+      <obj_property name="ElementShortName">I2C[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I2C[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/STANDBY" type="array">
+      <obj_property name="ElementShortName">STANDBY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STANDBY[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/OK_RESPONSE" type="array">
+      <obj_property name="ElementShortName">OK_RESPONSE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OK_RESPONSE[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/ERROR_RESPONSE" type="array">
+      <obj_property name="ElementShortName">ERROR_RESPONSE[55:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR_RESPONSE[55:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/MAX_CMD_BITS" type="array">
+      <obj_property name="ElementShortName">MAX_CMD_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_CMD_BITS[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider633">
+      <obj_property name="label">console</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/uart_speed" type="array">
+      <obj_property name="ElementShortName">uart_speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_speed[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/spi_speed" type="array">
+      <obj_property name="ElementShortName">spi_speed[27:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_speed[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/spi_mode" type="logic">
+      <obj_property name="ElementShortName">spi_mode</obj_property>
+      <obj_property name="ObjectShortName">spi_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/spi_cpol" type="logic">
+      <obj_property name="ElementShortName">spi_cpol</obj_property>
+      <obj_property name="ObjectShortName">spi_cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/spi_cpha" type="logic">
+      <obj_property name="ElementShortName">spi_cpha</obj_property>
+      <obj_property name="ObjectShortName">spi_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/i2c_mode" type="logic">
+      <obj_property name="ElementShortName">i2c_mode</obj_property>
+      <obj_property name="ObjectShortName">i2c_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/i2c_speed" type="array">
+      <obj_property name="ElementShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_speed[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/clear_buffer" type="logic">
+      <obj_property name="ElementShortName">clear_buffer</obj_property>
+      <obj_property name="ObjectShortName">clear_buffer</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy" type="logic">
+      <obj_property name="ElementShortName">rx_busy</obj_property>
+      <obj_property name="ObjectShortName">rx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy_r" type="array">
+      <obj_property name="ElementShortName">rx_busy_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/rx_busy_fedge" type="logic">
+      <obj_property name="ElementShortName">rx_busy_fedge</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_fedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/received_byte" type="array">
+      <obj_property name="ElementShortName">received_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">received_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/send" type="logic">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/response" type="array">
+      <obj_property name="ElementShortName">response[63:0]</obj_property>
+      <obj_property name="ObjectShortName">response[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/response_chars_num" type="array">
+      <obj_property name="ElementShortName">response_chars_num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">response_chars_num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/tx_busy" type="logic">
+      <obj_property name="ElementShortName">tx_busy</obj_property>
+      <obj_property name="ObjectShortName">tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/tx_busy_r" type="array">
+      <obj_property name="ElementShortName">tx_busy_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/tx_busy_fedge" type="logic">
+      <obj_property name="ElementShortName">tx_busy_fedge</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_fedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/command" type="array">
+      <obj_property name="ElementShortName">command[160:1]</obj_property>
+      <obj_property name="ObjectShortName">command[160:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2767" type="group">
+      <obj_property name="label">constants</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/console_tb/console/UART" type="array">
+         <obj_property name="ElementShortName">UART[1:0]</obj_property>
+         <obj_property name="ObjectShortName">UART[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/SPI" type="array">
+         <obj_property name="ElementShortName">SPI[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/I2C" type="array">
+         <obj_property name="ElementShortName">I2C[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/SERIAL_SPEED" type="array">
+         <obj_property name="ElementShortName">SERIAL_SPEED[19:0]</obj_property>
+         <obj_property name="ObjectShortName">SERIAL_SPEED[19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/STANDBY" type="array">
+         <obj_property name="ElementShortName">STANDBY[1:0]</obj_property>
+         <obj_property name="ObjectShortName">STANDBY[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/RESPOND" type="array">
+         <obj_property name="ElementShortName">RESPOND[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RESPOND[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/WAIT" type="array">
+         <obj_property name="ElementShortName">WAIT[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WAIT[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/CR" type="array">
+         <obj_property name="ElementShortName">CR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">CR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/OK_RESPONSE" type="array">
+         <obj_property name="ElementShortName">OK_RESPONSE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OK_RESPONSE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/ERROR_RESPONSE" type="array">
+         <obj_property name="ElementShortName">ERROR_RESPONSE[55:0]</obj_property>
+         <obj_property name="ObjectShortName">ERROR_RESPONSE[55:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/MAX_CMD_BITS" type="array">
+         <obj_property name="ElementShortName">MAX_CMD_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_CMD_BITS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/SLAVE" type="logic">
+         <obj_property name="ElementShortName">SLAVE</obj_property>
+         <obj_property name="ObjectShortName">SLAVE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/console_tb/console/MASTER" type="logic">
+         <obj_property name="ElementShortName">MASTER</obj_property>
+         <obj_property name="ObjectShortName">MASTER</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider172">
+      <obj_property name="label">console_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/speed" type="array">
+      <obj_property name="ElementShortName">speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">speed[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/bytes2send" type="array">
+      <obj_property name="ElementShortName">bytes2send[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes2send[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/bytes_num" type="array">
+      <obj_property name="ElementShortName">bytes_num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes_num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/pulse" type="logic">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/tx_busy_8bytes" type="logic">
+      <obj_property name="ElementShortName">tx_busy_8bytes</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_8bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/send_byte" type="logic">
+      <obj_property name="ElementShortName">send_byte</obj_property>
+      <obj_property name="ObjectShortName">send_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/fifo" type="array">
+      <obj_property name="ElementShortName">fifo[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/ptr" type="array">
+      <obj_property name="ElementShortName">ptr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptr[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/byte2send" type="array">
+      <obj_property name="ElementShortName">byte2send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte2send[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/tx_busy_1byte" type="logic">
+      <obj_property name="ElementShortName">tx_busy_1byte</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_1byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/tx_busy_r" type="array">
+      <obj_property name="ElementShortName">tx_busy_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/READY" type="array">
+      <obj_property name="ElementShortName">READY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">READY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/TRIGGER" type="array">
+      <obj_property name="ElementShortName">TRIGGER[2:0]</obj_property>
+      <obj_property name="ObjectShortName">TRIGGER[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_tx/XMIT" type="array">
+      <obj_property name="ElementShortName">XMIT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">XMIT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1705">
+      <obj_property name="label">console_rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/speed" type="array">
+      <obj_property name="ElementShortName">speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">speed[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/rx_busy" type="logic">
+      <obj_property name="ElementShortName">rx_busy</obj_property>
+      <obj_property name="ObjectShortName">rx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/frame" type="array">
+      <obj_property name="ElementShortName">frame[8:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/counter" type="array">
+      <obj_property name="ElementShortName">counter[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/COUNT_VALUE" type="array">
+      <obj_property name="ElementShortName">COUNT_VALUE[19:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT_VALUE[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/console/console_rx/DATA_BIT" type="array">
+      <obj_property name="ElementShortName">DATA_BIT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BIT[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider889">
+      <obj_property name="label">controller_tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/speed" type="array">
+      <obj_property name="ElementShortName">speed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">speed[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/bytes2send" type="array">
+      <obj_property name="ElementShortName">bytes2send[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes2send[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/bytes_num" type="array">
+      <obj_property name="ElementShortName">bytes_num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes_num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/pulse" type="logic">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/tx_busy_8bytes" type="logic">
+      <obj_property name="ElementShortName">tx_busy_8bytes</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_8bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/send_byte" type="logic">
+      <obj_property name="ElementShortName">send_byte</obj_property>
+      <obj_property name="ObjectShortName">send_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/fifo" type="array">
+      <obj_property name="ElementShortName">fifo[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/ptr" type="array">
+      <obj_property name="ElementShortName">ptr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/byte2send" type="array">
+      <obj_property name="ElementShortName">byte2send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte2send[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/tx_busy_1byte" type="logic">
+      <obj_property name="ElementShortName">tx_busy_1byte</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_1byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/tx_busy_r" type="array">
+      <obj_property name="ElementShortName">tx_busy_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/READY" type="array">
+      <obj_property name="ElementShortName">READY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">READY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/TRIGGER" type="array">
+      <obj_property name="ElementShortName">TRIGGER[2:0]</obj_property>
+      <obj_property name="ObjectShortName">TRIGGER[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/console_tb/controller_tx/XMIT" type="array">
+      <obj_property name="ElementShortName">XMIT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">XMIT[2:0]</obj_property>
+   </wvobject>
+</wave_config>

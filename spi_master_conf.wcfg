@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spi_master_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_master_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6400000001fs"></ZoomEndTime>
+      <Cursor1Time time="304995000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="311"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject type="divider" fp_name="divider101">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/pulse1" type="logic">
+      <obj_property name="ElementShortName">pulse1</obj_property>
+      <obj_property name="ObjectShortName">pulse1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/pulse2" type="logic">
+      <obj_property name="ElementShortName">pulse2</obj_property>
+      <obj_property name="ObjectShortName">pulse2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/bit" type="array">
+      <obj_property name="ElementShortName">bit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/bit2" type="array">
+      <obj_property name="ElementShortName">bit2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/cs1" type="logic">
+      <obj_property name="ElementShortName">cs1</obj_property>
+      <obj_property name="ObjectShortName">cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/cs2" type="logic">
+      <obj_property name="ElementShortName">cs2</obj_property>
+      <obj_property name="ObjectShortName">cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/data_received" type="array">
+      <obj_property name="ElementShortName">data_received[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_received[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">const</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_master_tb/CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">CLOCK_NS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CLOCK_NS[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/MINIMUM_PERIOD" type="array">
+         <obj_property name="ElementShortName">MINIMUM_PERIOD[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MINIMUM_PERIOD[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/BAUD_RATE" type="array">
+         <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/DATA_BIT" type="array">
+         <obj_property name="ElementShortName">DATA_BIT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_BIT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/UART_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">UART_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">UART_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/UART_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/frame" type="array">
+         <obj_property name="ElementShortName">frame[8:0]</obj_property>
+         <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/SPI_SPEED" type="array">
+         <obj_property name="ElementShortName">SPI_SPEED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_SPEED[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/SPI_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">SPI_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/SPI_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/CPOL" type="logic">
+         <obj_property name="ElementShortName">CPOL</obj_property>
+         <obj_property name="ObjectShortName">CPOL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/CPHA" type="logic">
+         <obj_property name="ElementShortName">CPHA</obj_property>
+         <obj_property name="ObjectShortName">CPHA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/MODE" type="array">
+         <obj_property name="ElementShortName">MODE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MODE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/I2C_SPEED" type="array">
+         <obj_property name="ElementShortName">I2C_SPEED[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_SPEED[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/I2C_CLOCK_NS" type="array">
+         <obj_property name="ElementShortName">I2C_CLOCK_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_CLOCK_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/I2C_CLOCK_HALF_PERIOD" type="array">
+         <obj_property name="ElementShortName">I2C_CLOCK_HALF_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I2C_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/ADDR2SEND" type="array">
+         <obj_property name="ElementShortName">ADDR2SEND[6:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR2SEND[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/NUM_OF_FRAMES" type="array">
+         <obj_property name="ElementShortName">NUM_OF_FRAMES[1:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_OF_FRAMES[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/REPEAT" type="array">
+         <obj_property name="ElementShortName">REPEAT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">REPEAT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_master_tb/R_OR_W" type="logic">
+         <obj_property name="ElementShortName">R_OR_W</obj_property>
+         <obj_property name="ObjectShortName">R_OR_W</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider99">
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider100">
+      <obj_property name="label">spi_master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/pulse1" type="logic">
+      <obj_property name="ElementShortName">pulse1</obj_property>
+      <obj_property name="ObjectShortName">pulse1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/pulse2" type="logic">
+      <obj_property name="ElementShortName">pulse2</obj_property>
+      <obj_property name="ObjectShortName">pulse2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/speed" type="array">
+      <obj_property name="ElementShortName">speed[27:0]</obj_property>
+      <obj_property name="ObjectShortName">speed[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/data2send" type="array">
+      <obj_property name="ElementShortName">data2send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2send[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/cpol" type="logic">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/cpha" type="logic">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/cs1" type="logic">
+      <obj_property name="ElementShortName">cs1</obj_property>
+      <obj_property name="ObjectShortName">cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/cs2" type="logic">
+      <obj_property name="ElementShortName">cs2</obj_property>
+      <obj_property name="ObjectShortName">cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/data_received" type="array">
+      <obj_property name="ElementShortName">data_received[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_received[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/counter" type="array">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/bit4tx" type="array">
+      <obj_property name="ElementShortName">bit4tx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">bit4tx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/bit4rx" type="array">
+      <obj_property name="ElementShortName">bit4rx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">bit4rx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/COUNT_VALUE" type="array">
+      <obj_property name="ElementShortName">COUNT_VALUE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT_VALUE[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/HALF_COUNT_VALUE" type="array">
+      <obj_property name="ElementShortName">HALF_COUNT_VALUE[10:0]</obj_property>
+      <obj_property name="ObjectShortName">HALF_COUNT_VALUE[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/full_counted" type="logic">
+      <obj_property name="ElementShortName">full_counted</obj_property>
+      <obj_property name="ObjectShortName">full_counted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/half_counted" type="logic">
+      <obj_property name="ElementShortName">half_counted</obj_property>
+      <obj_property name="ObjectShortName">half_counted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/CHIP1SELECT" type="array">
+      <obj_property name="ElementShortName">CHIP1SELECT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CHIP1SELECT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/CHIP2SELECT" type="array">
+      <obj_property name="ElementShortName">CHIP2SELECT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CHIP2SELECT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/CPHA0_DATA_PHASE" type="array">
+      <obj_property name="ElementShortName">CPHA0_DATA_PHASE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA0_DATA_PHASE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/CPHA1_DATA_PHASE" type="array">
+      <obj_property name="ElementShortName">CPHA1_DATA_PHASE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA1_DATA_PHASE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/spi_master/Z_PHASE" type="array">
+      <obj_property name="ElementShortName">Z_PHASE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Z_PHASE[2:0]</obj_property>
+   </wvobject>
+</wave_config>

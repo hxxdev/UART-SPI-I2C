@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spi_tx_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_tx_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="404000fs"></ZoomStartTime>
+      <ZoomEndTime time="684801fs"></ZoomEndTime>
+      <Cursor1Time time="505000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/spi_tx_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/pulse1" type="logic">
+      <obj_property name="ElementShortName">pulse1</obj_property>
+      <obj_property name="ObjectShortName">pulse1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/pulse2" type="logic">
+      <obj_property name="ElementShortName">pulse2</obj_property>
+      <obj_property name="ObjectShortName">pulse2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/bit" type="array">
+      <obj_property name="ElementShortName">bit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/cs1" type="logic">
+      <obj_property name="ElementShortName">cs1</obj_property>
+      <obj_property name="ObjectShortName">cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/cs2" type="logic">
+      <obj_property name="ElementShortName">cs2</obj_property>
+      <obj_property name="ObjectShortName">cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/CLOCK_NS" type="array">
+      <obj_property name="ElementShortName">CLOCK_NS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_NS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/CLOCK_HALF_PERIOD" type="array">
+      <obj_property name="ElementShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_HALF_PERIOD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/MINIMUM_PERIOD" type="array">
+      <obj_property name="ElementShortName">MINIMUM_PERIOD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MINIMUM_PERIOD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/DATA_BIT" type="array">
+      <obj_property name="ElementShortName">DATA_BIT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BIT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/UART_CLOCK_NS" type="array">
+      <obj_property name="ElementShortName">UART_CLOCK_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_CLOCK_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/UART_CLOCK_HALF_PERIOD" type="array">
+      <obj_property name="ElementShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_CLOCK_HALF_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/frame" type="array">
+      <obj_property name="ElementShortName">frame[8:0]</obj_property>
+      <obj_property name="ObjectShortName">frame[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/SPEED" type="array">
+      <obj_property name="ElementShortName">SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SPEED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/SPI_CLOCK_NS" type="array">
+      <obj_property name="ElementShortName">SPI_CLOCK_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SPI_CLOCK_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/SPI_CLOCK_HALF_PERIOD" type="array">
+      <obj_property name="ElementShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SPI_CLOCK_HALF_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/CPOL" type="logic">
+      <obj_property name="ElementShortName">CPOL</obj_property>
+      <obj_property name="ObjectShortName">CPOL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/CPHA" type="logic">
+      <obj_property name="ElementShortName">CPHA</obj_property>
+      <obj_property name="ObjectShortName">CPHA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/MODE" type="array">
+      <obj_property name="ElementShortName">MODE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/pulse1" type="logic">
+      <obj_property name="ElementShortName">pulse1</obj_property>
+      <obj_property name="ObjectShortName">pulse1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/pulse2" type="logic">
+      <obj_property name="ElementShortName">pulse2</obj_property>
+      <obj_property name="ObjectShortName">pulse2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/cs1" type="logic">
+      <obj_property name="ElementShortName">cs1</obj_property>
+      <obj_property name="ObjectShortName">cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/cs2" type="logic">
+      <obj_property name="ElementShortName">cs2</obj_property>
+      <obj_property name="ObjectShortName">cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/reg_cs1" type="logic">
+      <obj_property name="ElementShortName">reg_cs1</obj_property>
+      <obj_property name="ObjectShortName">reg_cs1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/reg_cs2" type="logic">
+      <obj_property name="ElementShortName">reg_cs2</obj_property>
+      <obj_property name="ObjectShortName">reg_cs2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/reg_sclk" type="logic">
+      <obj_property name="ElementShortName">reg_sclk</obj_property>
+      <obj_property name="ObjectShortName">reg_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/reg_mosi" type="logic">
+      <obj_property name="ElementShortName">reg_mosi</obj_property>
+      <obj_property name="ObjectShortName">reg_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/counter" type="array">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/bit" type="array">
+      <obj_property name="ElementShortName">bit[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/sclk_trigger" type="logic">
+      <obj_property name="ElementShortName">sclk_trigger</obj_property>
+      <obj_property name="ObjectShortName">sclk_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/SPEED" type="array">
+      <obj_property name="ElementShortName">SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SPEED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/CPOL" type="logic">
+      <obj_property name="ElementShortName">CPOL</obj_property>
+      <obj_property name="ObjectShortName">CPOL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/CPHA" type="logic">
+      <obj_property name="ElementShortName">CPHA</obj_property>
+      <obj_property name="ObjectShortName">CPHA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/MODE" type="array">
+      <obj_property name="ElementShortName">MODE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tx_tb/spi_tx/COUNT_VALUE" type="array">
+      <obj_property name="ElementShortName">COUNT_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT_VALUE[31:0]</obj_property>
+   </wvobject>
+</wave_config>
